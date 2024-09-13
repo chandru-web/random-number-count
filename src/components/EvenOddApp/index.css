@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe);
+  height: 80vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.count-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+}
+.even-odd-text {
+  color: #334155;
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 300;
+}
+.button {
+  height: 30px;
+  width: 120px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  color: #000000;
+  background-color: #ffffff;
+  border: 0px solid #ffffff;
+  transition: background-color 0.3s, color 0.3s;
+}
+.button:hover {
+  background-color: #ff6e7f;
+  color: #000000;
+}
+.counter-description {
+  color: #1e293b;
+}
